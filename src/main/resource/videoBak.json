@@ -1,0 +1,146 @@
+https://h5vv.video.qq.com/getinfo?callback=?tvp_request_getinfo_callback_99205&charge=0&_rnd=1557669719&appVer=V2.0Build9502&ehost=hhtp%3A%2F%2Fv.qq.com&platform=11001&sdtfrom=v1010&sb=1&vids=u0840ywnamu&nocache=0&guid=51e1815797e36d308106d6a5ddfe2e19&otype=json&sphls=0&defaultfmt=auto&&_qv_rmt=ErfC383PA15691pJZ=&_qv_rmt2=aQDBuZ3C157679Hfw=
+
+
+{
+    "dltype": 1,
+    "exem": 0,
+    "fl": {
+        "cnt": 2,
+        "fi": [
+            {
+                "id": 100701,
+                "name": "msd",
+                "lmt": 0,
+                "sb": 1,
+                "cname": "标清;(270P)",
+                "br": 28,
+                "profile": 2,
+                "drm": 0,
+                "video": 1,
+                "audio": 1,
+                "fs": 3205070,
+                "super": 0,
+                "hdr10enh": 0,
+                "sl": 0
+            },
+            {
+                "id": 2,
+                "name": "mp4",
+                "lmt": 0,
+                "sb": 1,
+                "cname": "高清;(480P)",
+                "br": 53,
+                "profile": 1,
+                "drm": 0,
+                "video": 1,
+                "audio": 1,
+                "fs": 5887234,
+                "super": 0,
+                "hdr10enh": 0,
+                "sl": 1
+            }
+        ]
+    },
+    "hs": 0,
+    "ip": "111.194.188.200",
+    "ls": 0,
+    "preview": 106,
+    "s": "o",
+    "sfl": {
+        "cnt": 0
+    },
+    "tm": 1557669722,
+    "vl": {
+        "cnt": 1,
+        "vi": [
+            {
+                "br": 53,
+                "ch": 0,
+                "cl": {
+                    "fc": 0,
+                    "keyid": "u0840ywnamu.2"
+                },
+                "ct": 21600,
+                "drm": 0,
+                "dsb": 0,
+                "fmd5": "c2eedde2f4fe38a7f34621b455cabb3a",
+                "fn": "u0840ywnamu.mp4",
+                "fs": 5887234,
+                "fst": 5,
+                "fvkey": "4ACD7178A2B142289314AA83C8C7C0C36A0BC7427DA633C82A40883E77271E8CAB40F966B3A90B165080DF5B39A46CF2D8AFC9EDC9DC7232C814F1970E5DBB96CA0D1A786FCB3588FB25F06668EA20EA0EC09A9E268E76FF4105BDDFC283E868259E5B8ABD643EB784942399F0B48CC48321372DAF727293",
+                "head": 0,
+                "hevc": 0,
+                "iflag": 0,
+                "level": 0,
+                "lnk": "u0840ywnamu",
+                "logo": 1,
+                "mst": 8,
+                "pl": null,
+                "share": 1,
+                "sp": 0,
+                "st": 2,
+                "tail": 0,
+                "td": "106.28",
+                "ti": "最快客机来了！北京飞纽约仅需6.5小时",
+                "tie": 0,
+                "type": 24,
+                "ul": {
+                    "ui": [
+                        {
+                            "url": "http://ugcws.video.gtimg.com/uwMROfz2r5zEIaQXGdGnC2dfDmafRkP9ujxgqKjuATzMrE-2/",
+                            "vt": 106,
+                            "dtc": 0,
+                            "dt": 2
+                        },
+                        {
+                            "url": "http://123.125.10.160/om.tc.qq.com/Aln5pgS6qgw7Rzgb0QoD4Sr-izce_gBIG-B0fUnSx7cQ/uwMROfz2r5zEIaQXGdGlC2dfDmYOaUFBVa-4l_dz-AlryjQi/",
+                            "vt": 219,
+                            "dtc": 0,
+                            "dt": 2
+                        },
+                        {
+                            "url": "http://ugcsjy.qq.com/uwMROfz2r5zEIaQXGdGlA2dfDmZgjf1LphH39woNj-29V63M/",
+                            "vt": 176,
+                            "dtc": 0,
+                            "dt": 2
+                        },
+                        {
+                            "url": "http://video.dispatch.tc.qq.com/uwMROfz2r5zEIaQXGdGlBGdfDmYxGhvNPVaKc1RC5xp5bbR9/",
+                            "vt": 0,
+                            "dtc": 0,
+                            "dt": 2
+                        }
+                    ]
+                },
+                "vh": 486,
+                "vid": "u0840ywnamu",
+                "videotype": 28,
+                "vr": 0,
+                "vst": 2,
+                "vw": 864,
+                "wh": 1.7777778,
+                "wl": {
+                    "wi": [
+                        {
+                            "id": 43,
+                            "x": 22,
+                            "y": 22,
+                            "w": 150,
+                            "h": 46,
+                            "a": 100,
+                            "md5": "0946c22582daa84a63df7cee86f52962",
+                            "url": "http://puui.qpic.cn/vcolumn_pic/0/huoguo_v2.png/0",
+                            "surl": "https://puui.qpic.cn/vcolumn_pic/0/huoguo_v2.png/0"
+                        }
+                    ]
+                },
+                "uptime": 1550804451,
+                "fvideo": 0,
+                "fvpint": 0,
+                "swhdcp": 0
+            }
+        ]
+    }
+}
+
+http://ugcsjy.qq.com/uwMROfz2r5zEIaQXGdGlA2dfDmZgjf1LphH39woNj-29V63M/u0840ywnamu.mp4?vkey=4ACD7178A2B142289314AA83C8C7C0C36A0BC7427DA633C82A40883E77271E8CAB40F966B3A90B165080DF5B39A46CF2D8AFC9EDC9DC7232C814F1970E5DBB96CA0D1A786FCB3588FB25F06668EA20EA0EC09A9E268E76FF4105BDDFC283E868259E5B8ABD643EB784942399F0B48CC48321372DAF727293&br=53&platform=2&&fmt=auto&level=0&sdtfrom=v1010&guid=51e1815797e36d308106d6a5ddfe2e19

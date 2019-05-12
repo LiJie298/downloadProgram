@@ -6,7 +6,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import java.io.IOException;
 import java.util.concurrent.Callable;
 
-public class TaskDownload implements Callable {
+public class TaskDownload implements Callable<Boolean> {
 
     private String url;
     private String title;
@@ -22,13 +22,14 @@ public class TaskDownload implements Callable {
         try {
              return HttpClientHelper.executeDownloadFile(closeableHttpClient, url, title, "", true);
         } catch (IOException e) {
+            e.printStackTrace();
             System.out.println("title: " + title + "  下载失败");
             return false;
         }
     }
 
     @Override
-    public Object call() throws Exception {
+    public Boolean call() throws Exception {
         return download();
     }
 }

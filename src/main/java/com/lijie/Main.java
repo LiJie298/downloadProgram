@@ -22,7 +22,7 @@ public class Main {
     private static final String CURL = "";
     private String downloadPath;
 
-    ExecutorService service = Executors.newFixedThreadPool(30);
+    ExecutorService service = Executors.newFixedThreadPool(10);
 
 
     public String getRealURL(String url) {

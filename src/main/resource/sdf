@@ -1,0 +1,119 @@
+tvp_request_getinfo_callback_892761({
+    "dltype": 1,
+    "exem": 0,
+    "fl": {
+        "cnt": 2,
+        "fi": [{
+            "id": 100701,
+            "name": "msd",
+            "lmt": 0,
+            "sb": 1,
+            "cname": "标清;(270P)",
+            "br": 14,
+            "profile": 2,
+            "drm": 0,
+            "video": 1,
+            "audio": 1,
+            "fs": 7109327,
+            "super": 0,
+            "hdr10enh": 0,
+            "sl": 0
+        }, {
+            "id": 2,
+            "name": "mp4",
+            "lmt": 0,
+            "sb": 1,
+            "cname": "高清;(480P)",
+            "br": 39,
+            "profile": 1,
+            "drm": 0,
+            "video": 1,
+            "audio": 1,
+            "fs": 9613214,
+            "super": 0,
+            "hdr10enh": 0,
+            "sl": 1
+        }]
+    },
+    "hs": 0,
+    "ip": "111.194.188.200",
+    "ls": 0,
+    "preview": 236,
+    "s": "o",
+    "sfl": {
+        "cnt": 0
+    },
+    "tm": 1557635131,
+    "vl": {
+        "cnt": 1,
+        "vi": [{
+            "br": 39,
+            "ch": 0,
+            "cl": {
+                "fc": 0,
+                "keyid": "c0650lwy0tq.2"
+            },
+            "ct": 21600,
+            "drm": 0,
+            "dsb": 0,
+            "fmd5": "129c944c94ef5753cdf038b9fc609b74",
+            "fn": "c0650lwy0tq.mp4",
+            "fs": 9613214,
+            "fst": 5,
+            "fvkey": "C058E5EA92CB048413A9F5C08312880CA1F786F4FCE2636D3BFD30225C90C96863C57FBB33150A0F4A49023C7827396A22C840CCE93CE2DF91C409C34590BD91DDFA1719505DE27A0D99D52E2EF5AA44D41973DD3618E8E2B5ED9780633F392484D2AE4B6A25CB1827E8EA0D081EEDDB0F5699B6D1081AC8",
+            "head": 0,
+            "hevc": 0,
+            "iflag": 0,
+            "level": 0,
+            "lnk": "c0650lwy0tq",
+            "logo": 1,
+            "mst": 8,
+            "pl": null,
+            "share": 1,
+            "sp": 0,
+            "st": 2,
+            "tail": 0,
+            "td": "236.71",
+            "ti": "当孩子变成自己的母亲时，做父亲的见面第一句话会说什么？",
+            "tie": 0,
+            "type": 24,
+            "ul": {
+                "ui": [{
+                    "url": "http://ugcws.video.gtimg.com/uwMROfz2r5zCIaQXGdGnC2dfDmavB6NbsWKJAiRTQBPbT70a/",
+                    "vt": 106,
+                    "dtc": 0,
+                    "dt": 2
+                }, {
+                    "url": "http://123.125.10.159/om.tc.qq.com/AV6hrgAbasJ0rShz3VaYFvrTMKlkUB6fz7oo35V4hZw4/uwMROfz2r5zCIaQXGdGlC2dfDmY-KKHnXvFRPXvOuSZ8KcaO/",
+                    "vt": 219,
+                    "dtc": 0,
+                    "dt": 2
+                }, {
+                    "url": "http://ugcydzd.qq.com/uwMROfz2r5zCIaQXGdGlA2dfDmZQzB3trU8eXYawzsKqtF9g/",
+                    "vt": 146,
+                    "dtc": 0,
+                    "dt": 2
+                }, {
+                    "url": "http://video.dispatch.tc.qq.com/uwMROfz2r5zCIaQXGdGlB2dfDmZnvkPo1JA57fgP9TDB-pOX/",
+                    "vt": 0,
+                    "dtc": 0,
+                    "dt": 2
+                }]
+            },
+            "vh": 480,
+            "vid": "c0650lwy0tq",
+            "videotype": 27,
+            "vr": 0,
+            "vst": 2,
+            "vw": 848,
+            "wh": 1.7666667,
+            "wl": {
+                "wi": []
+            },
+            "uptime": 1526021888,
+            "fvideo": 0,
+            "fvpint": 0,
+            "swhdcp": 0
+        }]
+    }
+})
