@@ -1,5 +1,6 @@
 package com.lijie;
 
+import com.lijie.util.TengxunVideoUtil;
 import com.lijie.util2.HttpClientHelper;
 import org.apache.http.impl.client.CloseableHttpClient;
 
@@ -19,11 +20,11 @@ public class TaskDownload implements Callable<Boolean> {
     }
 
     private boolean download() {
+        String realUrl = TengxunVideoUtil.getTecentRealURL(url);
         try {
-             return HttpClientHelper.executeDownloadFile(closeableHttpClient, url, title, "", true);
+            return HttpClientHelper.executeDownloadFile(closeableHttpClient, realUrl, title, "", true);
         } catch (IOException e) {
-            e.printStackTrace();
-            System.out.println("title: " + title + "  下载失败");
+            System.out.println("title: " + url + "  下载失败 url:" + realUrl);
             return false;
         }
     }

@@ -493,6 +493,11 @@ public class HttpClientHelper {
             }
             in = entity.getContent();
             File file = new File(localFilePath);
+            if(!file.exists()){
+                if(!file.getParentFile().exists())
+                    file.getParentFile().mkdirs();
+                file.createNewFile();
+            }
             fout = new FileOutputStream(file);
             int l;
             byte[] tmp = new byte[1024];

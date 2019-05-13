@@ -11,6 +11,7 @@ import java.io.FileReader;
 import java.net.URLEncoder;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 
 
 public class TengxunVideoUtil {
@@ -113,6 +114,7 @@ public class TengxunVideoUtil {
 
     private static String getVideoFinalAddress(String url) {
         String finalStr = "";
+        Random random = new Random();
         String guid = url.substring(url.indexOf("guid=") + 5);
         String res = HttpHelper.getData(url, new HttpAttr("application/json; charset=utf-8"), "", "utf-8");
         if (!res.equals("timeout")) {
@@ -127,7 +129,8 @@ public class TengxunVideoUtil {
                     String fvkey = temp.getString("fvkey");
                     String fn = temp.getString("fn");
                     JSONArray ul = temp.getJSONObject("ul").getJSONArray("ui");
-                    JSONObject urlJSON = ul.getJSONObject(0);
+                    int ulNum = random.nextInt(ul.size());
+                    JSONObject urlJSON = ul.getJSONObject(ulNum);
                     String realStr = urlJSON.getString("url");
                     finalStr = String.format(RESLBASEURL, realStr, fn, fvkey, guid, br);
                     break;
@@ -138,7 +141,7 @@ public class TengxunVideoUtil {
     }
 
     public static void main(String[] args) {
-        String url = "https://v.qq.com/iframe/preview.html?vid=g0634dnsfcj";
+        String url = "https://v.qq.com/iframe/preview.html?vid=w0870pdznrt";
         System.out.println(TengxunVideoUtil.getTecentRealURL(url));
 
     }

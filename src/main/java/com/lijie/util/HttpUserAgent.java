@@ -1,11 +1,13 @@
 package com.lijie.util;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import static com.apple.eio.FileManager.getResource;
 
 public class HttpUserAgent {
 
